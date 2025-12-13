@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kape Kuripot</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Plus+Jakarta+Sans:wght@200..800&display=swap" rel="stylesheet">
+
+<body>
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="site-header">
+        <div class="top-bar">
+            <div class="logo-area">
+                <!-- Make logo clickable to go back to index -->
+                <a href="index.html" class="logo-link">
+                    <span class="logo-text">Kape Kuripot</span>
+                </a>
+            </div>
+            <div class="top-links">
+                <a href="login.html">Login / Signup</a>
+                <a href="#">Help</a>
+                <a href="#" class="btn-order">Order Now</a>
+            </div>
+        </div>
+
+        <nav class="main-nav">
+            <ul>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="store.html">Store</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main>
+        <!-- CAROUSEL PROMO -->
+        <section class="promo-carousel">
+            <div class="carousel-track">
+                <article class="promo-slide active">
+                    <div class="promo-text">
+                        <h2>Morning Brew Deal</h2>
+                        <p>Any medium coffee and pastry combo at a special price.</p>
+                        <a href="#" class="btn-primary">Order Now</a>
+                    </div>
+                    <div class="promo-image">
+                        <img src="promo1.jpg" alt="Morning coffee and pastry">
+                    </div>
+                </article>
+
+                <article class="promo-slide">
+                    <div class="promo-text">
+                        <h2>New Iced Lattes</h2>
+                        <p>Cool caramel and vanilla lattes for hot days.</p>
+                        <a href="#" class="btn-primary">Try Today</a>
+                    </div>
+                    <div class="promo-image">
+                        <img src="promo2.jpg" alt="Iced latte drinks">
+                    </div>
+                </article>
+
+                <article class="promo-slide">
+                    <div class="promo-text">
+                        <h2>Rewards Program</h2>
+                        <p>Earn points for every cup and redeem for free drinks.</p>
+                        <a href="#" class="btn-primary">Join Free</a>
+                    </div>
+                    <div class="promo-image">
+                        <img src="promo3.jpg" alt="Rewards card">
+                    </div>
+                </article>
+            </div>
+
+            <div class="carousel-dots">
+                <button class="dot active" data-index="0" title="Slide 1" aria-label="Go to slide 1"></button>
+                <button class="dot" data-index="1" title="Slide 2" aria-label="Go to slide 2"></button>
+                <button class="dot" data-index="2" title="Slide 3" aria-label="Go to slide 3"></button>
+            </div>
+        </section>
+
+        <!-- BEST SELLER GRID -->
+        <section class="best-sellers">
+            <div class="section-header">
+                <h2>Best Sellers</h2>
+            </div>
+
+            <div class="product-grid">
+                <article class="product-card">
+                    <img src="best1.jpg" alt="House Blend">
+                    <h3>House Blend</h3>
+                    <p>Smooth, balanced, and freshly roasted.</p>
+                    <span class="price">$3.50</span>
+                </article>
+
+                <article class="product-card">
+                    <img src="best2.jpg" alt="Caramel Latte">
+                    <h3>Caramel Latte</h3>
+                    <p>Espresso, milk, and rich caramel syrup.</p>
+                    <span class="price">$4.75</span>
+                </article>
+
+                <article class="product-card">
+                    <img src="best3.jpg" alt="Mocha">
+                    <h3>Mocha</h3>
+                    <p>Chocolate and espresso with steamed milk.</p>
+                    <span class="price">$4.50</span>
+                </article>
+
+                <article class="product-card">
+                    <img src="best4.jpg" alt="Butter Croissant">
+                    <h3>Butter Croissant</h3>
+                    <p>Flaky pastry baked fresh every morning.</p>
+                    <span class="price">$2.99</span>
+                </article>
+            </div>
+        </section>
+
+        <!-- ABOUT SECTION -->
+        <section class="about-section">
+            <div class="about-inner">
+                <div class="about-text">
+                    <h2>About Jake's Coffee Shop</h2>
+                    <p>Jake's Coffee Shop is a cozy neighborhood spot serving freshly roasted coffee and baked goods.</p>
+                    <p>From early-morning commuters to late-night study sessions, our space is designed for comfort, community, and great flavor.</p>
+                </div>
+                <div class="about-image">
+                    <img src="about.jpg" alt="Inside Jake's Coffee Shop">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+        <div class="footer-links">
+            <a href="#">About Us</a>
+            <a href="#">Stores</a>
+            <a href="#">Careers</a>
+            <a href="#">Help &amp; Support</a>
+            <a href="#">Privacy Policy</a>
+        </div>
+        <p class="footer-copy">&copy; 2025 Kape. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

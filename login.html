@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kape Kuripot | Login</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Plus+Jakarta+Sans:wght@200..800&display=swap" rel="stylesheet">
+</head>
+</head>
+<body class="auth-body">
+
+<div class="auth-container">
+
+    <!-- LEFT BRAND -->
+    <div class="auth-left">
+        <h2>Kape Kuripot</h2>
+        <p>Your daily coffee, one click away.</p>
+    </div>
+
+    <!-- RIGHT FORM -->
+    <div class="auth-right">
+
+        <!-- TOGGLE BUTTONS -->
+        <div class="auth-tabs">
+            <button class="tab-btn active" onclick="showLogin()">Login</button>
+            <button class="tab-btn" onclick="showSignup()">Sign Up</button>
+        </div>
+
+        <!-- LOGIN FORM -->
+        <form id="loginForm" class="auth-form">
+            <h3>Welcome Back</h3>
+
+            <input type="email" placeholder="Email Address" required>
+            <div class="password-box">
+                <input type="password" id="loginPassword" placeholder="Password" required>
+                <span class="material-icons toggle-pass" data-target="loginPassword">
+                    visibility
+                </span>
+            </div>
+
+
+
+
+            <button type="submit" class="auth-btn">Login</button>
+
+            <p class="auth-note">Forgot your password?</p>
+        </form>
+
+        <!-- SIGNUP FORM -->
+        <form id="signupForm" class="auth-form hidden">
+            <h3>Create Account</h3>
+
+            <input type="text" placeholder="Full Name" required>
+            <input type="email" placeholder="Email Address" required>
+            <div class="password-box">
+                <input type="password" id="signupPassword" placeholder="Password" required>
+                <span class="material-icons toggle-pass" data-target="signupPassword">
+                    visibility
+                </span>
+            </div>
+
+            <div class="password-box">
+                <input type="password" id="confirmPassword" placeholder="Confirm Password" required>
+                <span class="material-icons toggle-pass" data-target="confirmPassword">
+                    visibility
+                </span>
+            </div>
+
+
+
+            <button type="submit" class="auth-btn">Sign Up</button>
+        </form>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
