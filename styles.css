@@ -60,6 +60,7 @@ main,
 .logo-link,
 .top-links a {
   text-decoration: none;
+  color: #330000;
 }
 
 .top-links {
@@ -69,12 +70,15 @@ main,
   font-size: 0.9rem;
 }
 
-.btn-order-now {
+.top-links a.btn-order-now {
   padding: 6px 14px;
   border-radius: 999px;
+  color: #f1e8b0;
+  /* Added a valid hex code (Jake's Header Color) */
   background-color: #330000;
-  color: #fff;
   font-weight: 600;
+  text-decoration: none; /* Recommended for <a> tags */
+  display: inline-block;
 }
 
 /* NAVIGATION */
