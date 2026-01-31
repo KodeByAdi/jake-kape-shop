@@ -22,7 +22,7 @@
             <div class="top-links">
                 <a href="login.html">Login / Signup</a>
                 <a href="#">Help</a>
-                <a href="#" class="btn-order">Order Now</a>
+                <a href="#" class="btn-order-now">Order Now</a>
             </div>
         </div>
 
@@ -42,13 +42,10 @@
     <aside class="menu-categories">
         <h3>Categories</h3>
         <ul>
-            <li class="active">Family Super Meals</li>
-            <li>Super Meals</li>
+            <li class="active">All</li>
             <li>Coffee</li>
-            <li>Iced Drinks</li>
+            <li>Non-Coffee</li>
             <li>Pastries</li>
-            <li>Desserts</li>
-            <li>Beverages</li>
         </ul>
     </aside>
 
@@ -58,38 +55,37 @@
         <div class="menu-grid">
 
             <!-- PRODUCT CARD -->
-            <div class="menu-card">
-                <img src="best1.jpg" alt="Family Coffee Bundle">
-                <h4>Family Coffee Bundle</h4>
-                <p>4 Coffee + 4 Croissants</p>
-                <span class="price">₱499.00</span>
+            <div class="menu-card" data-category="Coffee">
+                <img src="latte.jpg" alt="Classic Latte">
+                <h4>Classic Latte</h4>
+                <p>Rich espresso with steamed milk</p>
+                <span class="price">₱99.00</span>
                 <button class="add-btn">+</button>
             </div>
-
-            <div class="menu-card">
-                <img src="best2.jpg" alt="Barkada Iced Drinks">
-                <h4>Barkada Iced Drinks</h4>
-                <p>6 Assorted Iced Drinks</p>
-                <span class="price">₱549.00</span>
+            
+            <div class="menu-card" data-category="Coffee">
+                <img src="americano.jpg" alt="Barako Americano">
+                <h4>Barako Americano</h4>
+                <p>Strong local brew</p>
+                <span class="price">₱75.00</span>
                 <button class="add-btn">+</button>
             </div>
-
-            <div class="menu-card">
-                <img src="best3.jpg" alt="Coffee & Pastry Set">
-                <h4>Coffee & Pastry Set</h4>
-                <p>2 Coffee + 2 Pastries</p>
-                <span class="price">₱299.00</span>
+            
+            <div class="menu-card" data-category="Pastries">
+                <img src="croissant.jpg" alt="Ube Cheese Pandesal">
+                <h4>Ube Cheese Pandesal</h4>
+                <p>6 pcs soft filled buns</p>
+                <span class="price">₱120.00</span>
                 <button class="add-btn">+</button>
             </div>
-
-            <div class="menu-card">
-                <img src="best4.jpg" alt="Solo Coffee Meal">
-                <h4>Solo Coffee Meal</h4>
-                <p>1 Coffee + 1 Croissant</p>
-                <span class="price">₱149.00</span>
+            
+            <div class="menu-card" data-category="Pastries">
+                <img src="muffin.jpg" alt="Chocolate Muffin">
+                <h4>Chocolate Muffin</h4>
+                <p>Deep dark cocoa muffin</p>
+                <span class="price">₱85.00</span>
                 <button class="add-btn">+</button>
             </div>
-
         </div>
 
     </section>
@@ -99,6 +95,8 @@
 <footer class="site-footer">
     <p>&copy; 2025 Kape Kuripot</p>
 </footer>
+
+<script src="script.js"></script>
 
 </body>
 </html>
